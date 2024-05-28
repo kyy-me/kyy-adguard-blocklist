@@ -23,12 +23,6 @@
       "transformations": ["RemoveComments", "Compress", "Validate"]
     },
     {
-      "name": "VNM: ABPVN List",
-      "source": "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt",
-      "type": "adblock",
-      "transformations": ["RemoveComments", "Compress", "Validate"]
-    },
-    {
       "name": "NoCoin Filter List",
       "source": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
       "type": "hosts",
@@ -44,6 +38,24 @@
       "name": "AdGuard DNS Popup Hosts filter",
       "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt",
       "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "VNM: ABPVN List",
+      "source": "https://abpvn.com/android/abpvn.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "HostsVN",
+      "source": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "bigdargon - hostsVN",
+      "source": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts",
+      "type": "hosts",
       "transformations": ["RemoveComments", "Compress", "Validate"]
     }
   ],
