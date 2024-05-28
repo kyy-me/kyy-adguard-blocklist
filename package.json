@@ -1,0 +1,11 @@
+{
+  "name": "@hocx/blocklists",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "mkdir -p dist && hostlist-compiler -c configuration.json -o kyy-adguard-blocklist.txt"
+  },
+  "devDependencies": {
+    "@adguard/hostlist-compiler": "^1.0.24"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "@hocx/blocklists",
+  "description": "DNS block list that can be used for AdGuard Home.",
+  "homepage": "https://github.com/hocx/blocklists",
+  "license": "MIT",
+  "sources": [
+    {
+      "name": "AdGuard DNS filter",
+      "source": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "AdGuard MobileFilter",
+      "source": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/specific_app.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "OISD Blocklist Big",
+      "source": "https://big.oisd.nl/",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "VNM: ABPVN List",
+      "source": "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "NoCoin Filter List",
+      "source": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "1Hosts (Lite)",
+      "source": "https://o0.pages.dev/Lite/adblock.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "AdGuard DNS Popup Hosts filter",
+      "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    }
+  ],
+  "transformations": [
+    "RemoveComments",
+    "Validate",
+    "Deduplicate",
+    "TrimLines",
+    "InsertFinalNewLine",
+    "RemoveEmptyLines"
+  ]
+}
