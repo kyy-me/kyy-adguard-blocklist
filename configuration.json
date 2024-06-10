@@ -29,6 +29,12 @@
       "transformations": ["RemoveComments", "Compress", "Validate"]
     },
     {
+      "name": "ZeroDot1 - CoinBlockerLists",
+      "source": "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
       "name": "1Hosts (Lite)",
       "source": "https://o0.pages.dev/Lite/adblock.txt",
       "type": "hosts",
@@ -56,6 +62,72 @@
       "name": "bigdargon - hostsVN",
       "source": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts",
       "type": "hosts",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "Spam404 - Main Blacklist",
+      "source": "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "Spam404 - Adblock List",
+      "source": "https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+        {
+      "name": "NextDNS CNAME Cloaking Blocklist",
+      "source": "https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "NextDNS Privacy - Alexa",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/alexa",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "NextDNS Privacy - Apple",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/apple",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "NextDNS Privacy - Huawei",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/huawei",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "NextDNS Privacy - Roku",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/roku",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "NextDNS Privacy - Samsung",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/samsung",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "NextDNS Privacy - Sonos",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/sonos",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "NextDNS Privacy - Windows",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/windows",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "NextDNS Privacy - Xiaomi",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/xiaomi",
+      "type": "adblock",
       "transformations": ["RemoveComments", "Compress", "Validate"]
     }
   ],
