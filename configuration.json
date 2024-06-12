@@ -129,6 +129,48 @@
       "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/xiaomi",
       "type": "adblock",
       "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+        {
+      "name": "Firebog - Personal Blocklist by WaLLy3K",
+      "source": "https://v.firebog.net/hosts/static/w3kbl.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "Firebog - Neohostsbasic",
+      "source": "https://v.firebog.net/hosts/neohostsbasic.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "Firebog - AdGuardDNS",
+      "source": "https://v.firebog.net/hosts/AdguardDNS.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "Firebog - Admiral",
+      "source": "https://v.firebog.net/hosts/Admiral.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "Firebog - Easylist",
+      "source": "https://v.firebog.net/hosts/Easylist.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "Firebog - Prigent Crypto",
+      "source": "https://v.firebog.net/hosts/Prigent-Crypto.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "Firebog - Prigent Malware",
+      "source": "https://v.firebog.net/hosts/Prigent-Malware.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
     }
   ],
   "transformations": [
