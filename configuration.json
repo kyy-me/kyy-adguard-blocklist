@@ -171,7 +171,37 @@
       "source": "https://v.firebog.net/hosts/Prigent-Malware.txt",
       "type": "adblock",
       "transformations": ["RemoveComments", "Compress", "Validate"]
-    }
+    },
+    {
+      "name": "uBlock filters - Default",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "uBlock filters – Badware risks",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "uBlock filters – Privacy",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "uBlock filters – Resource abuse",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
+    {
+      "name": "uBlock filters – Unbreak",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "Compress", "Validate"]
+    },
   ],
   "transformations": [
     "RemoveComments",
