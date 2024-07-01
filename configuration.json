@@ -201,7 +201,7 @@
       "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt",
       "type": "adblock",
       "transformations": ["RemoveComments", "Compress", "Validate"]
-    },
+    }
   ],
   "transformations": [
     "RemoveComments",
